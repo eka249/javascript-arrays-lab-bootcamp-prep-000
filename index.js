@@ -21,6 +21,7 @@ function appendKitten (name){
 }
 
 function prependKitten(name){
-  return name.concat(kittens)
+  newkittens= kittens;
+  return newkittens.unshift(name)
 }
 // Add your functions and code here
